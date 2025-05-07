@@ -26,3 +26,15 @@ console.warn("OR");
 console.log(true || false); // true 
 console.log(false || false); // false
 console.log(regresaTrue() || regresaFalse()); // true
+
+
+
+
+console.warn("Asignaciones");
+
+const soyUndefined = undefined;
+const soyNull = null;
+const soyFalse = false;
+
+const a1 = true && "Hola Mundo";
+const a2 = "Hola" && "mundo" && soyFalse;
